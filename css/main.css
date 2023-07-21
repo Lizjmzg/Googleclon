@@ -1,13 +1,14 @@
 body{
     /* Margen predeterminado*/
-    margin: 0%;
+    margin: 0;
     /* Margen pa' dentro*/
-    padding: 0%;
+    padding: 0;
     /* Tamaño de texto*/
     font-size: 13px;
     /* Fuente del texto*/ 
     font-family: Arial, Helvetica, sans-serif;
-}
+    overflow: hidden;
+} 
 /*************************************************/
 /********************************************/
 /***********************************/
@@ -16,7 +17,7 @@ header{
     /*Ancho*/
     width: 100%;
     /*Alto*/
-    height: 55px; 
+    height: 55px;
 }
 header nav{
     /* Cómo se puede mover el elemento*/ 
@@ -26,7 +27,7 @@ header nav{
 header nav .nav-right-section{
     /*Eliminar viñetas*/
     list-style: none;
-    width: 250px;
+    width: 220px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,26 +37,30 @@ header nav .nav-right-section{
 nav .nav-right-section a{
     /*Color de texto*/
     color: rgb(21, 21, 21);
-    /*Línea debajo de*/
+    /*Quitar línea debajo de las palabras*/
     text-decoration: none;
     /*Margen derecho*/
     margin-right: 25px;
 }
+nav .nav-right-section .gmail{ 
+    margin-right: 16px;  
+}
 nav .nav-right-section .menu{
     background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
-    width: 20px; 
-    height: 20px;
+    /*20*/
+    width: 23px; 
+    height: 23px; 
     /*Contiene a la imagen*/
     background-size: contain;
     background-repeat: no-repeat;
 }
 nav .nav-right-section img{
     /*Margin left-margen a la izq*/
-    margin-left: 20px;
+    margin-left: 20px;   
     /*Redondear*/
     border-radius: 100px;
     /*Anchura*/
-    width: 35px; 
+    width: 32px; 
 }
 /*************************************************/
 /********************************************/
@@ -63,32 +68,32 @@ nav .nav-right-section img{
 /* Main */
 main{
     text-align: center;
-    margin-top: 160px; 
+    margin-top: 10px;
 }
 /* Sección logo*/
 main .main-logo{
-    width: 530px; 
+    width: 525px; 
     margin: 0 auto;
-    margin-bottom: 40px; 
+    margin-bottom: 20px; 
 }
 /* Logo Google*/
 main .main-logo img{
-    height: 100px;  
+    height: 100px;
 
 }
 /* Sección input*/
 main .main-input{
-    /*Anchura*/
-    width: 550px;
+    /*Anchura 550*/
+    width: 530px;
     /* Margenes y centrados*/
     margin: 0 auto; 
     /* Separar input de botones*/
-    margin-bottom: 40px; 
+    margin-bottom: 26px;  /*35*/
 }
 /*Cajita gris redondeada, buscador*/
 main .main-input-container{
     /* Ancho de línea, estilo y color*/
-    border: 1px solid #9A98B5; 
+    border: 1px solid #dfe1e5; 
     /* Bordes redondeados*/ 
     border-radius: 30px; 
     width: 525px;
@@ -100,7 +105,7 @@ main .main-input-container{
 
 main .main-input input{
     height: 40px;
-    width: 430px; 
+    width: 450px; 
     /* Quitar borde negro*/
     border: none;
     /* Quitar borde azul al hacer click*/
@@ -148,7 +153,7 @@ main .main-buttons div{
 }
 main .main-buttons button{
     border: 0; 
-    height: 40px;
+    height: 37px; 
     background-color: #f8f9fa; 
     font-size: 14px; 
     color: #3c4043; 
@@ -159,11 +164,44 @@ main .main-buttons button{
 }
 /* Nos permite agregarle diseño al poner curso sobre el elemento*/
 main .main-input-container:hover{
-    box-shadow: 0 0 5px #20212447;
-}
+    box-shadow: 0 0 3px #20212447; 
+} 
 main .main-buttons button:hover{
     color: #202124;
     /* Ancho de línea - Estilo de línea - Color */
     border: 1px solid #dadce0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+} 
+footer{
+    height: 96px;
+    width: 100%; 
+    position: absolute;
+    bottom: 0;
+    display: flex; 
+    flex-direction: column;
+    background-color: #F0F0F0;
 }
+footer section{
+    display: flex;
+    height: 19%;
+    color: #70757a;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+footer .more-info{
+    border-top: #dfe1e5 solid 1px; 
+    display: flex;
+    justify-content: space-between;
+}
+footer .more-info div{
+    display: flex;
+}
+footer .more-info div a{
+    text-decoration: none;
+    color: #70757a;
+    padding: 15px 30px;
+    font-size: 14px;
+}
+
+
+
