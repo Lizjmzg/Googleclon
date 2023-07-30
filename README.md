@@ -10,7 +10,8 @@ Se construyó una interfaz idéntica a la de Google actualmente, la cuál estuvo
 ![2. Sección principal](images/screenshot2.png)
 3. Sección pie de página
 ![3. Sección pie de página](images/screenshot3.png)
-
+# Demo 💻
+Puedes entrar a ver el demo en el siguiente vínculo [Clon de Google](https://goggle-clon.netlify.app/).
 
 
 
