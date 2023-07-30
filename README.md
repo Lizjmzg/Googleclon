@@ -1,2 +1,5 @@
-# Clonación de la interfaz de Google
-*Creado con HTML5 y CSS3 en el bootcamp de TECNOLOchicasPRO ❤️*
+# Clon de Google
+👩🏽‍💻 Clonación de la Interfaz de Google utilizando HTML5 y CSS3 👩🏽‍💻
+#Introducción
+Este proyecto es una práctica realizada en el bootcamp de TECNOLOchicasPRO, donde se analizaron los componentes de Google y se replicaron a través de tecnologías como HTML y CSS
+
