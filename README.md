@@ -14,7 +14,8 @@ Se construyó una interfaz idéntica a la de Google actualmente, la cuál estuvo
 5. Sección pie de página
 ![3. Sección pie de página](images/screenshot3.png)
 
-##Tecnologías 👩🏽‍💻
+## Tecnologías 👩🏽‍💻
+Esta página web fue creada con:
 + HTML5
 + CSS3
 
