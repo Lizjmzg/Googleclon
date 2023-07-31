@@ -20,7 +20,7 @@ Esta página web fue creada con:
 + CSS3
 
 ## Demo 💻
-Puedes entrar a ver el demo en el siguiente vínculo [Clon de Google](https://goggle-clon.netlify.app/).
+Puedes entrar a ver el demo en el siguiente vínculo [Clon de Google](https://goggle-clon.netlify.app/)
 
 
 
